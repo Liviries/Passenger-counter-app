@@ -2,30 +2,24 @@
 <html lang="en">
 
 <head>
-    <title>Passenger counter app</title>
+    <title>Passenger Counter App</title>
     <link rel="stylesheet" href="index.css">
-    <style>
-        .sFH {
-            font-size: 40px;
-            font-weight: bold;
-            color: bisque;
-            text-shadow:
-                    1px 1px 0 #353535,
-                    -1px -1px 0 #353535,
-                    1px -1px 0 #353535,
-                    -1px 1px 0 #353535;
-
-        }
-    </style>
 </head>
 
 <body>
 
-<h1 class="sFH">People entered:</h1>
-<h2 id="count-el" class="sFH">0</h2>
-
-<button id="increment-btn" onclick="increment()">INCREMENT</button>
+<h1>People entered:</h1>
+<h2 id="count-el">0</h2>
+<div class="buttons-container">
+    <div class="top-buttons">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+    </div>
+    <button id="save-btn" onclick="save()">SAVE</button>
+</div>
+<p id="save-el">Previous entries: </p>
 <script src="index.js"></script>
 
 </body>
+
 </html>

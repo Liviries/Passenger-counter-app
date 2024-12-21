@@ -1,32 +1,90 @@
 body {
     background-image: url("background.jpg");
     background-size: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     text-align: center;
-
 }
 
-h1{
+h1 {
     margin-top: 166px;
-
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px #00FFFF;
 }
 
-h2{
-
+h2 {
     margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px #00FFFF;
+}
+
+p {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px #00FFFF;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.top-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px;
 }
 
 button {
+    width: 150px;
+    height: 50px;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+    font-size: 18px;
     font-weight: bold;
-    width: 220px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
-#increment-btn{
-    background: rgb(198, 139, 93);
+#increment-btn {
+    background: linear-gradient(90deg, #FF8C00, #FF4500);
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.7), 0 0 20px rgba(255, 69, 0, 0.6);
+}
+
+#increment-btn:hover {
+    background: linear-gradient(90deg, #FFA500, #FF6347);
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.9), 0 0 30px rgba(255, 99, 71, 0.8);
+    transform: scale(1.05);
+}
+
+#decrement-btn {
+    background: linear-gradient(90deg, #1E90FF, #4169E1);
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.7), 0 0 20px rgba(65, 105, 225, 0.6);
+}
+
+#decrement-btn:hover {
+    background: linear-gradient(90deg, #4682B4, #5F9EA0);
+    box-shadow: 0 0 20px rgba(70, 130, 180, 0.9), 0 0 30px rgba(95, 158, 160, 0.8);
+    transform: scale(1.05);
+}
+
+#save-btn {
+    background: linear-gradient(90deg, #32CD32, #228B22);
+    box-shadow: 0 0 10px rgba(50, 205, 50, 0.7), 0 0 20px rgba(34, 139, 34, 0.6);
+    margin-top: 10px;
+}
+
+#save-btn:hover {
+    background: linear-gradient(90deg, #3CB371, #2E8B57);
+    box-shadow: 0 0 20px rgba(60, 179, 113, 0.9), 0 0 30px rgba(46, 139, 87, 0.8);
+    transform: scale(1.05);
 }
