@@ -18,7 +18,19 @@ h2{
 
 button {
     border: none;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 
+#increment-btn{
+    background: rgb(198, 139, 93);
+}
 
+#save-btn{
+    background: darkgreen;
 }
