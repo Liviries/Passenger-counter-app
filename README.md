@@ -1,9 +1,15 @@
 # Passenger Counter App
 
-## Description
-The **Passenger Counter App** is a simple web-based clicker application that allows users to increment a counter each time a button is clicked. The counter represents the number of passengers or any other variable you want to track. The app is built using plain HTML, CSS, and JavaScript for a smooth, interactive user experience.
+A web application to count and track the number of passengers entering and exiting. Users can increment, decrement, and save entries.
+
+## Features
+
+- **Increment Button**: Increase the passenger count by one.
+- **Decrement Button**: Decrease the passenger count by one.
+- **Save Button**: Save the current passenger count and reset the counter.
 
 ## Technologies Used
-- **HTML** for structuring the web page.
-- **CSS** for styling the page and ensuring a pleasant user interface.
-- **JavaScript** for implementing the click functionality and updating the counter.
+
+- **JavaScript**: For interactive functionalities.
+- **CSS**: For styling and visual design.
+- **HTML**: For structure and layout.
